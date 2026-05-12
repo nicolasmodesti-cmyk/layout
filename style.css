@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: sans-serif;
+}
+
+.blue {
+    display: flex;
+    padding: 20px;
+    background-color: #0064fa;
+    gap: 10px;
+    border-radius: 8px;
+}
+
+.yo {
+    background-color: #fac000;
+    min-width: 60px;
+    min-height: 60px;
+
+}
+
+.flex {
+    display: flex;
+    gap: 10px;
+}
+
+.column {
+    flex-direction: column;
+}
